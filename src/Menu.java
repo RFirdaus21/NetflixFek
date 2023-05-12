@@ -2,7 +2,7 @@ import java.util.*;
 
 class Header {
     void showHeader(){
-        System.out.println("==========================================================");
+    System.out.println("==========================================================");
     System.out.println("\t\t Notflix \t\t  ");
     System.out.println("==========================================================");
     }
@@ -19,9 +19,7 @@ class Menu extends Header{
     SeriesDetails[] seri = x2.seedSeries();
 
     Scanner input = new Scanner(System.in);
-    
     Cls cls = new Cls();
-
     threadSleep sleep = new threadSleep();
 
     void mainMenu(){
@@ -46,7 +44,8 @@ class Menu extends Header{
                 System.out.println("\nGood Bye~");
                 sleep.delay500(); cls.clearscreen(); 
                 System.exit(0);
-            default : cls.clearscreen();
+            default : System.out.println(" ~ 404 not found ~ "); 
+                        sleep.delay500(); cls.clearscreen();
                 break;
             }
         }
@@ -68,9 +67,10 @@ class Menu extends Header{
                     break;
                 case 3 : showHeader(); movie[2].ShowDetails();
                     break;
-                case 0 : cls.clearscreen(); mainMenu();
+                case 0 : cls.clearscreen(); 
                     break;
                 default : System.out.println(" ~ 404 not found ~ ");
+                            sleep.delay500();  cls.clearscreen();
                     break;
             }
     }
@@ -88,9 +88,10 @@ class Menu extends Header{
                     break;
                 case 2 : showHeader(); seri[1].ShowDetails(); 
                     break;
-                    case 0 : cls.clearscreen(); mainMenu();
+                    case 0 : cls.clearscreen(); 
                     break;
                 default : System.out.println(" ~ 404 not found ~ ");
+                            sleep.delay500();  cls.clearscreen();
                     break;
             }
     }

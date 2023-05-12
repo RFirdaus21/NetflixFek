@@ -11,7 +11,7 @@ public class Main {
         reg.login();
         currentUser = reg.loginLogic();
 
-        if (currentUser == true){
+        if (currentUser){
             menu.mainMenu();
         } else {
             continue;

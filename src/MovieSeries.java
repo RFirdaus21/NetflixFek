@@ -84,6 +84,7 @@ class MovieDetails extends Movie{
             } cls.clearscreen();
         } else {
                 System.out.println("Wrong input");
+                sleep.delay500(); cls.clearscreen();
         }
     }
 }
@@ -153,6 +154,7 @@ class SeriesDetails extends Movie{
             } cls.clearscreen();
         } else {
                 System.out.println("Wrong input");
+                sleep.delay500(); cls.clearscreen();
         }
     }
 }
