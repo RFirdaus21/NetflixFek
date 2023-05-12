@@ -204,7 +204,7 @@ public SeriesDetails[] seedSeries(){
     series[0].setSeason(3);
     series[0].setGenre("Crime, Action");
     series[0].setCast("Wagner Moura, Pedro Pascal, Boyd Hoolbrook");
-    series[0].setTrailerLink("");
+    series[0].setTrailerLink("https://www.youtube.com/watch?v=xl8zdCY-abw&pp=ygUObmFyY29zIHRyYWlsZXI%3D");
 
     series[1] = new SeriesDetails();
     series[1].setTitle("The Umbrella Academy");
@@ -214,7 +214,7 @@ public SeriesDetails[] seedSeries(){
     series[1].setSeason(3);
     series[1].setGenre("Action, Fantasy, Supranatural");
     series[1].setCast("Aidan Gallagher, Elliot Page, Tom Hooper");
-    series[1].setTrailerLink("");
+    series[1].setTrailerLink("https://www.youtube.com/watch?v=0DAmWHxeoKw&pp=ygUYdW1icmVsbGEgYWNhZGVteSB0cmFpbGVy");
 
     return series;
 }

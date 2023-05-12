@@ -3,7 +3,7 @@ import java.util.*;
 class Header {
     void showHeader(){
     System.out.println("==========================================================");
-    System.out.println("\t\t Notflix \t\t  ");
+    System.out.println("\t\t Netflix Fek \t\t  ");
     System.out.println("==========================================================");
     }
 }

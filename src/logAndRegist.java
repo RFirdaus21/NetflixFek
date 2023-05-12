@@ -12,21 +12,24 @@ class Register extends Account {
     Scanner z = new Scanner(System.in);
 
     Cls cls = new Cls();
+    threadSleep sleep = new threadSleep();
     
     /* ploymorphism method overriding */
 
     void reg(){
-        System.out.println("==========================================================");
+        System.out.println("\n\n==========================================================");
         System.out.println("\nDaftarkan akun anda\n");
         System.out.println("Masukkan username   : ");
         username = z.nextLine();
         System.out.println("Masukkan Password   : ");
         password = z.nextLine();
+        System.out.println("Akun anda telah terdaftar");
         System.out.println("==========================================================");
+        sleep.delay500(); cls.clearscreen();
     }
 
     void login(){
-        System.out.println("==========================================================");
+        System.out.println("\n\n==========================================================");
         System.out.println("\n\nSilahkan login dengan akun yang telah di registrasi\n\n");
         System.out.print("Username  : ");
         userUsn = z.nextLine();
