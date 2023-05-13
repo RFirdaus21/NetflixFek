@@ -78,3 +78,5 @@ Use Case Table
 https://youtu.be/74xDuv3Ngvc
 
 # No 10
+
+![](https://github.com/RFirdaus21/NetflixFek/blob/main/screenshoot%20codes/GIFUX.gif)
