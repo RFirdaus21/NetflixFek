@@ -32,7 +32,7 @@ class Movie {
         return this.year;
     }
 }
-/*inheritance */
+/*inheritance */ /*encapsulation */
 class MovieDetails extends Movie{
     private String genre;
     private String cast;
@@ -68,7 +68,7 @@ class MovieDetails extends Movie{
     System.out.println("Genre : "+this.getGenre());
     System.out.println("Cast : "+this.getCast());
     System.out.println("\n[1] Putar\t [2] Lihat Trailer");
-    System.out.println("==========================================================");
+    System.out.println("\n==========================================================");
     System.out.print("Pilihan anda : ");
     pil = input.nextInt();
 
@@ -138,7 +138,7 @@ class SeriesDetails extends Movie{
     System.out.println("Genre : "+this.getGenre());
     System.out.println("Cast : "+this.getCast());
     System.out.println("\n[1] Putar\t [2] Lihat Trailer");
-    System.out.println("==========================================================");
+    System.out.println("\n==========================================================");
     System.out.print("Pilihan anda : ");
     pil = input.nextInt();
 
@@ -159,7 +159,7 @@ class SeriesDetails extends Movie{
     }
 }
 
-/*memberi nilai pada atribut film */
+/*memberi nilai pada atribut film dengan array*/
 class MovieInitiate  {
     public MovieDetails[] seedMovies(){
     MovieDetails[] movies = new MovieDetails[10];

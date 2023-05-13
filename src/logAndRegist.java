@@ -5,6 +5,8 @@ import java.util.Scanner;
  abstract class Account{   
     String username, password;
     abstract void reg();
+    abstract void login();
+    abstract boolean loginLogic();
 }
 /*inheritance */
 class Register extends Account {
@@ -13,12 +15,13 @@ class Register extends Account {
 
     Cls cls = new Cls();
     threadSleep sleep = new threadSleep();
+    Header header = new Header();
     
     /* ploymorphism method overriding */
 
     void reg(){
-        System.out.println("\n\n==========================================================");
-        System.out.println("\nDaftarkan akun anda\n");
+        header.landPageHeader();
+        System.out.println("\n\nDaftarkan akun anda\n");
         System.out.println("Masukkan username   : ");
         username = z.nextLine();
         System.out.println("Masukkan Password   : ");
@@ -29,12 +32,14 @@ class Register extends Account {
     }
 
     void login(){
-        System.out.println("\n\n==========================================================");
-        System.out.println("\n\nSilahkan login dengan akun yang telah di registrasi\n\n");
+        header.landPageHeader();
+        System.out.println("\n\nSilahkan login dengan akun yang telah terdaftar\n\n");
         System.out.print("Username  : ");
         userUsn = z.nextLine();
         System.out.print("Password  : ");
         userPw = z.nextLine();
+        System.out.println("\nSedang Masuk......");
+        sleep.delay750(); cls.clearscreen();
         System.out.println("==========================================================");
     }
     /*cek akun terdaftar dan akun login */
