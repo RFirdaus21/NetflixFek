@@ -48,9 +48,20 @@ https://github.com/RFirdaus21/NetflixFek/blob/main/src/logAndRegist.java
 Pertama membuat list use case atau proses bisnin yang ada pada sebuah aplikasi yang akan dibuat.
 Kemudian menganalisis untuk menentukan akan ada entitas (class) dan atribut apa saja yang diperlukan.
 
+Use Case terimplementasi :
+
+- Dapat melakukan registrasi
+- Dapat melakukan login
+- Dapat melihat menu
+- Dapat melihat daftar film dan series
+- Dapat melihat detail mengenai film dan series
+- Dapat kembali ke menu
+- Dapat keluar dari program
+
 # No 8
 
 Diagram Class
+![](https://github.com/RFirdaus21/NetflixFek/blob/main/screenshoot%20codes/Diagram%20Class%20Netflix%20Fek.png)
 
 Use Case Table
 
@@ -75,7 +86,7 @@ Use Case Table
 
 # No 9
 
-https://youtu.be/74xDuv3Ngvc
+https://youtu.be/hInxFk-jlkA
 
 # No 10
 
