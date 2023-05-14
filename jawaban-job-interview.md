@@ -32,15 +32,15 @@ Terdapat 4 konsep dasar dari OOP yaitu :
   tetapi memiliki perintah atau isi method yang berbeda.
 
 # No 4
-
+![](https://github.com/RFirdaus21/NetflixFek/blob/main/screenshoot%20codes/Enkapsulasi.png)  
 https://github.com/RFirdaus21/NetflixFek/blob/main/src/MovieSeries.java
 
 # No 5
-
+![](https://github.com/RFirdaus21/NetflixFek/blob/main/screenshoot%20codes/abstrak.png)  
 https://github.com/RFirdaus21/NetflixFek/blob/main/src/logAndRegist.java
 
 # No 6
-
+![](https://github.com/RFirdaus21/NetflixFek/blob/main/screenshoot%20codes/inheritance%20polymorph.png)  
 https://github.com/RFirdaus21/NetflixFek/blob/main/src/logAndRegist.java
 
 # No 7
