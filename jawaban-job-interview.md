@@ -58,6 +58,11 @@ Use Case terimplementasi :
 - Dapat kembali ke menu
 - Dapat keluar dari program
 
+Manfaat penggunaan OOP beberapa diantaranya yaitu :   
+- Mempermudah dalam mendeteksi kesalahan
+- Mempermudah dalam memperbaiki kesalahan
+- Sebuah kesalahan tidak akan meluas ke class lain
+- Mempermudah dalam pengerjaan bersama untuk suatu projek
 # No 8
 
 Diagram Class
